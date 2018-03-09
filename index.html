@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystals Collector</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1 class="p-3 bg-primary text-center col-5">Crystals Collector!</h1>
+
+    <div class="directions bg-warning col-5">
+        <p>
+            You will be given a random number at the start of the game.
+        </p>
+
+        <p>
+            There are four crustals below. By clicking on a crystal you <br> 
+            will add a specific amount of points to your total score.
+        </p>
+
+        <p>
+            You win the game by matching your toal score to random number, <br>
+            you lose the game if your total score goes above the random number.
+        </p>
+
+        <p>
+            The value of each crstal is hidden from you until you click on it.
+        </p>
+
+        <p>
+            Each time when the game starts, the game will change the <br>
+            values of each crystal.
+        </p>
+
+    </div>
+
+   
+        <div class="bg-info float-left col-3 p-4 clearfix">
+            <p class="h1" id="startingNumber">0</p>
+        </div> 
+
+        <div class="float-left bg-warning clearfix p-1" style="width: 200px">
+            <p class="h4">Wins:<span id="playerWins"></span></p>
+            <br>
+            <p class="h4">Losses:<span id="playerLosses"></span></p>
+        </div>
+    <br>
+
+    <div class="buttons">
+        <img type="button" class="img-thumbnail" id="blue" src="assets/images/Blue.jpg">
+        <img type="button" class="img-thumbnail" id="yellow" src="assets/images/Yellow.jpg">
+        <img type="button" class="img-thumbnail" id="red" src="assets/images/Red.jpg">
+        <img type="button" class="img-thumbnail" id="green" src="assets/images/Green.jpg">
+    </div>
+
+    <div class="bg-info p-1 col-5">
+        <p>Your total score is: </p>
+    </div>
+
+    <br>
+
+    <div class="bg-info p-3 col-5">
+        <p class="h1" id="playerScore"></p>
+    </div>
+ 
+    <script src="assets/javascript/game.js"></script>
+    
+</body>
+</html>

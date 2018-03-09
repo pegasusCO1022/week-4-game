@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_pic/03/59/15/0257a3f9ff4a3d9.jpg")
+
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#blue{
+    height: 100px;
+    width: 10%
+}
+
+#red{
+    height: 100px;
+    width: 10%
+}
+
+#yellow{
+    height: 100px;
+    width: 10%
+}
+
+#green{
+    height: 100px;
+    width: 10%
+}
